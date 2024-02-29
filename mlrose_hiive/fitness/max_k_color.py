@@ -26,7 +26,7 @@ class MaxKColor:
 
         >>> import mlrose_hiive
         >>> import numpy as np
-        >>> edges = [(0, 1), (0, 2), (0, 4), (1, 3), (2, 0), (2, 3), (3, 4)]
+        >>> edges = [(0, 1), (0, 2), (1, 3), (2, 0), (2, 3), (3, 4)]
         >>> fitness = mlrose_hiive.MaxKColor(edges)
         >>> state = np.array([0, 1, 0, 1, 1])
         >>> fitness.evaluate(state)
